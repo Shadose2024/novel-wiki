@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Novel Wiki — 从原作到百科</title>
+  <desc id="desc">深绿底色上，一本展开的书通过线条连接人物、资料卡与百科页面，象征有出处的原作整理。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102e2c"/><stop offset="1" stop-color="#173c36"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8db6a3" stroke-opacity=".075"/></pattern>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5efde"/><stop offset="1" stop-color="#d6dfcb"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <path d="M0 335H1200" stroke="#ad965e" stroke-opacity=".5"/>
+  <circle cx="1010" cy="174" r="145" fill="none" stroke="#87ae99" stroke-opacity=".12"/>
+  <circle cx="1010" cy="174" r="114" fill="none" stroke="#87ae99" stroke-opacity=".12" stroke-dasharray="4 8"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="56" y="48" width="174" height="26" rx="13" fill="#294b40" stroke="#6b8d71" stroke-opacity=".55"/>
+    <text x="72" y="66" fill="#c5d7b7" font-size="11" font-weight="600" letter-spacing="2">A SKILL FOR STORIES</text>
+    <text x="52" y="158" fill="#f4efdf" font-size="76" font-weight="700" letter-spacing="-3">Novel Wiki</text>
+    <text x="57" y="205" fill="#e4e6d4" font-size="25" font-family="Noto Sans SC,Microsoft YaHei,sans-serif" letter-spacing="2">从原作的每一页，到属于这部作品的百科</text>
+    <path d="M58 239H106" stroke="#d3b477" stroke-width="3"/>
+    <text x="57" y="277" fill="#a8bfad" font-size="13" letter-spacing="2.5">READ · TRACE · CONNECT · CREATE</text>
+  </g>
+  <g fill="none" stroke="#9fba9e" stroke-width="1.5">
+    <path d="M840 184H876Q890 184 890 169V104H952"/>
+    <path d="M841 207H951" stroke-dasharray="4 5"/>
+    <path d="M834 230H879Q891 230 891 243V278H952"/>
+  </g>
+  <g transform="translate(718 115)">
+    <path d="M0 8Q37-2 65 14Q94-2 131 8V128Q95 118 65 135Q34 118 0 128Z" fill="url(#page)" stroke="#e8e7ce" stroke-width="2"/>
+    <path d="M65 15V134" stroke="#788c74" stroke-width="1.5"/>
+    <path d="M14 32Q34 28 50 34M14 46Q34 42 50 48M14 60Q34 56 50 62M80 33Q99 27 116 32M80 47Q99 41 116 46M80 61Q99 55 116 60" fill="none" stroke="#849479" stroke-width="2"/>
+    <path d="M14 85H43M14 96H49M80 85H111M80 96H103" stroke="#9fab8f" stroke-width="2"/>
+    <path d="M98 7V35L105 30L112 35V7" fill="#b69b61"/>
+  </g>
+  <g font-family="Noto Sans SC,Microsoft YaHei,sans-serif" fill="#e5ead7">
+    <rect x="954" y="69" width="184" height="70" rx="12" fill="#254a40" stroke="#6d8d6f"/>
+    <circle cx="985" cy="95" r="8" fill="none" stroke="#bdcb9d" stroke-width="2"/>
+    <path d="M973 119Q985 101 997 119" fill="none" stroke="#bdcb9d" stroke-width="2"/>
+    <text x="1012" y="99" font-size="16">人物与经历</text><text x="1012" y="120" fill="#9eb7a2" font-size="11">档案 · 关系 · 生平</text>
+    <rect x="954" y="172" width="184" height="70" rx="12" fill="#294c3d" stroke="#8d986c"/>
+    <path d="M976 192H994V217H976ZM981 199H989M981 205H989" fill="none" stroke="#d2c18e" stroke-width="1.5"/>
+    <text x="1012" y="202" font-size="16">有出处的资料</text><text x="1012" y="223" fill="#a9baa0" font-size="11">证据 · 状态 · 历史</text>
+    <rect x="954" y="261" width="184" height="43" rx="10" fill="#193b32" stroke="#5b8068"/>
+    <path d="M975 274H997V290H975ZM975 279H997" fill="none" stroke="#a6bd96" stroke-width="1.5"/>
+    <text x="1012" y="288" font-size="15">属于作品的 Wiki</text>
+  </g>
+  <g fill="#d1b578"><circle cx="890" cy="184" r="3"/><circle cx="890" cy="230" r="3"/></g>
+</svg>
