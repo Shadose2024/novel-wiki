@@ -1,0 +1,4 @@
+interface:
+  display_name: "原作百科 · Novel Wiki"
+  short_description: "从小说全文提取带出处的资料，整理人物经历与设定，再制作静态百科和 SVG 美术"
+  default_prompt: "使用 $novel-wiki，根据我提供的小说全文先完成原作资料提取和可编辑数据库，并保存进度。"
